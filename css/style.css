@@ -244,9 +244,11 @@ body{
 .about section ul{
     margin-left: 5px;
     list-style: inside;
+    text-align: justify;
 }
 .about__purpose-text p{
     text-indent: 1.5em;
+    text-align: justify;
 }
 
 
