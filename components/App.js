@@ -9,7 +9,7 @@ function App() {
   };
 
   this.getData = () => {
-    fetch("../data.js")
+    fetch("../data/data.js")
       .then((respone) => respone.text())
       .then((data) => {
         setTimeout(() => {
